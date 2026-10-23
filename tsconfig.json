@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", "module": "ESNext", "moduleResolution": "bundler",
+    "jsx": "react-jsx", "jsxImportSource": "preact",
+    "strict": true, "noImplicitAny": false, "skipLibCheck": true,
+    "lib": ["ES2021", "DOM", "DOM.Iterable"], "types": ["vite/client"],
+    "noEmit": true, "resolveJsonModule": true, "isolatedModules": true
+  },
+  "include": ["src", "tests/unit"]
+}

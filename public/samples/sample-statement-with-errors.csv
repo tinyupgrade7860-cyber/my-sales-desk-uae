@@ -1,0 +1,7 @@
+﻿Invoice No,Billing Date,Sales Man,Customer,Total Amount,Tax Amount,Grand Total,Received Amount,Balance,Ageing Days,Remarks
+BT-26-0201,05/10/2026,Sample Salesman,"Al Noor Grocery LLC (Fictional)",1000.00,50.00,1100.00,0,1100.00,17,Grand total wrong
+BT-26-0202,31/02/2026,Sample Salesman,"Al Noor Grocery LLC (Fictional)",500.00,25.00,525.00,0,525.00,0,Bad date
+BT-26-0203,06/10/2026,Sample Salesman,,800.00,40.00,840.00,0,840.00,16,No customer
+BT-26-0204,07/10/2026,Sample Salesman,"Marina Mini Mart (Fictional)",2000.00,100.00,2100.00,500.00,1900.00,15,Balance wrong
+BT-26-0204,07/10/2026,Sample Salesman,"Marina Mini Mart (Fictional)",2000.00,100.00,2100.00,500.00,1600.00,15,Duplicate
+BT-26-0205,08/10/2026,Sample Salesman,"Marina Mini Mart (Fictional)",300.00,15.00,315.00,0,315.00,14,OK
