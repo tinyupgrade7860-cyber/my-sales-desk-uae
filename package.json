@@ -10,7 +10,10 @@
     "test": "vitest run",
     "test:e2e": "playwright test",
     "icons": "node scripts/make-icons.mjs",
-    "samples": "node scripts/make-samples.mjs"
+    "samples": "node scripts/make-samples.mjs",
+    "build:pages": "tsc && vite build --base=/my-sales-desk-uae/",
+    "test:e2e:pages": "playwright test -c playwright.subpath.config.ts",
+    "deploy": "bash scripts/deploy.sh"
   },
   "license": "ISC",
   "type": "module",
